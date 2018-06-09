@@ -7,7 +7,7 @@
                 <figure>
                     <p class="main">{{$one->name}}</p>
 
-                    <figcaption><a  href="{{asset('products/'.$one->id)}}"><img src="{{asset('image/'.$one->picture)}}" alt="{{$one->name}}"></a></figcaption>
+                    <figcaption><a  href="{{asset('products/'.$one->id)}}"><img src="{{asset('Image/'.$one->picture)}}" alt="{{$one->name}}"></a></figcaption>
                     <a href="{{asset('products/'.$one->id)}}" id="link " data_id="{{asset('products/'.$one->id)}}" class="but ">Купить</a></figure>
             </li>
 
